@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13862" started-at="2018-07-22T11:38:58Z" finished-at="2018-07-22T11:39:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13862" started-at="2018-07-22T11:38:58Z" finished-at="2018-07-22T11:39:12Z">
+      <class name="org.pom.base.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.pom.base.LoginPageTest@5c3bd550]" name="setup" is-config="true" duration-ms="6886" started-at="2018-07-22T17:08:58Z" finished-at="2018-07-22T17:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLogin()[pri:0, instance:org.pom.base.LoginPageTest@5c3bd550]" name="validateLogin" duration-ms="37" started-at="2018-07-22T17:09:05Z" finished-at="2018-07-22T17:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.pom.base.LoginPageTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="840" started-at="2018-07-22T17:09:05Z" finished-at="2018-07-22T17:09:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:org.pom.base.LoginPageTest@5c3bd550]" name="setup" is-config="true" duration-ms="5281" started-at="2018-07-22T17:09:06Z" finished-at="2018-07-22T17:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="dependentTest()[pri:0, instance:org.pom.base.LoginPageTest@5c3bd550]" name="dependentTest" duration-ms="11" started-at="2018-07-22T17:09:12Z" depends-on-methods="org.pom.base.LoginPageTest.validateLogin" finished-at="2018-07-22T17:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dependentTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.pom.base.LoginPageTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="784" started-at="2018-07-22T17:09:12Z" finished-at="2018-07-22T17:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.pom.base.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
